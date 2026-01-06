@@ -1,9 +1,9 @@
 
-# Day 2: Singly Linked List
+# Linked Lists (Day 2–3)
 
-This folder contains the Day 2 implementation of a **Singly Linked List** in Python.
+This folder contains implementations and notes for linked list variants in Python.
 
-## What I Learned / Implemented (SimplyLL.py)
+## Day 2: Singly Linked List (SimplyLL.py)
 
 ### 1) Node structure
 
@@ -59,4 +59,108 @@ From the repo root:
 
 ```bash
 python "Linkedlist/SimplyLL.py"
+```
+
+---
+
+## Day 3: Doubly Linked List (DoublyLL.py)
+
+### What I Learned / Implemented
+
+### 1) Node structure (DLL)
+
+- Created a `Node` class with:
+	- `data`: stores the value
+	- `prev`: pointer to previous node
+	- `next`: pointer to next node
+
+### 2) Doubly Linked List (DLL) basics
+
+- Created a `DoublyLinkedList` class with:
+	- `head`: points to the first node
+
+### 3) Insertion operations
+
+- Insert at end: `insertAtEnd(value)`
+	- Traverses to the last node
+	- Links both `next` and `prev` pointers
+
+- Insert at beginning: `insertAtbeg(value)`
+	- Prepends the node
+	- Updates both `head` and the old head’s `prev`
+
+- Insert in middle (after a specific value): `insertAtMid(value, x)`
+	- Finds the node with `data == x`
+	- Inserts the new node right after it
+	- Updates the surrounding `next/prev` pointers
+
+### 4) Deletion operation
+
+- Delete a node by value: `deleteDLL(val)`
+	- Handles deletion at head
+	- Handles deletion in the middle
+	- Handles deletion at tail
+
+### 5) Traversal / Printing
+
+- Print the list: `printDLL()`
+	- Prints values in order with a `<--->` separator
+
+## Run
+
+From the repo root:
+
+```bash
+python "Linkedlist/DoublyLL.py"
+```
+
+---
+
+## Day 3: Circular Linked List (CircularLL.py)
+
+This file contains two circular linked list implementations:
+
+- Circular Singly Linked List: `CircularSLL` (uses `SLLNode`)
+- Circular Doubly Linked List: `CircularDLL` (uses `DLLNode`)
+
+### Circular Singly Linked List (CircularSLL)
+
+- Maintains:
+	- `head`: first node
+	- `last`: last node (whose `next` points back to `head`)
+
+- Insertion operations:
+	- `insertAtEnd(value)`
+	- `insertAtBeg(value)`
+	- `insertAtMid(value, x)` (inserts after value `x`)
+
+- Deletion:
+	- `deleteCLL(val)` (handles head, tail, and middle)
+
+- Traversal / Printing:
+	- `printCLL()` (stops once it loops back to `head`)
+
+### Circular Doubly Linked List (CircularDLL)
+
+- Maintains a circular DLL where:
+	- `head.prev` is the last node
+	- last node’s `next` points to `head`
+
+- Insertion operations:
+	- `insertAtEnd(value)`
+	- `insertAtBeg(value)`
+	- `insertAtMid(value, x)` (inserts after value `x`)
+
+- Deletion:
+	- `deleteCDLL(val)` (handles single-node list and head deletion)
+
+- Traversal / Printing:
+	- `printCDLL()` (stops once it loops back to `head`)
+
+## Run
+
+From the repo root:
+
+```bash
+python "Linkedlist/CircularLL.py"
 ```
