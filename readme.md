@@ -8,6 +8,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 1: Arrays
 - Day 2: Singly Linked List
 - Day 3: Doubly Linked List and Circular Linked List
+- Day 4: Stack
 
 ## Structure
 
@@ -18,6 +19,9 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 	- [SimplyLL.py](Linkedlist/SimplyLL.py)
 	- [DoublyLL.py](Linkedlist/DoublyLL.py)
 	- [CircularLL.py](Linkedlist/CircularLL.py)
+
+- [Stack/](Stack/readme.md)
+	- [Stack.py](Stack/Stack.py)
 
 ## Prerequisites
 
@@ -54,6 +58,12 @@ Example (Circular Linked List):
 
 ```bash
 python "Linkedlist/CircularLL.py"
+```
+
+Example (Stack):
+
+```bash
+python "Stack/Stack.py"
 ```
 
 ## Notes
