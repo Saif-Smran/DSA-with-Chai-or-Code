@@ -10,6 +10,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 3: Doubly Linked List and Circular Linked List
 - Day 4: Stack
 - Day 5: Queue and Deque
+- Day 6: Circular Queue
 
 ## Structure
 
@@ -27,6 +28,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - [Queue/](Queue/readme.md)
 	- [Queue.py](Queue/Queue.py)
 	- [DeQueue.py](Queue/DeQueue.py)
+	- [CircularQueue.py](Queue/CircularQueue.py)
 
 ## Prerequisites
 
@@ -81,6 +83,12 @@ Example (Deque):
 
 ```bash
 python "Queue/DeQueue.py"
+```
+
+Example (Circular Queue):
+
+```bash
+python "Queue/CircularQueue.py"
 ```
 
 ## Notes
