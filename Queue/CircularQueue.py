@@ -41,5 +41,6 @@ cq.enqueue(20)
 cq.enqueue(30)
 cq.enqueue(40)
 cq.enqueue(50)
-cq.enqueue(60)  # This will raise an exception: Queue is full
 print(cq.dequeue())  # Output: 10
+cq.enqueue(60)  # This will raise an exception: Queue is full
+print(cq.dequeue())  # Output: 20
