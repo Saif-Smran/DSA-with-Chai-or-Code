@@ -11,6 +11,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 4: Stack
 - Day 5: Queue and Deque
 - Day 6: Circular Queue
+- Day 7: Recursion
 
 ## Structure
 
@@ -29,6 +30,10 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 	- [Queue.py](Queue/Queue.py)
 	- [DeQueue.py](Queue/DeQueue.py)
 	- [CircularQueue.py](Queue/CircularQueue.py)
+
+- [Recursion/](Recursion/readme.md)
+	- [factorial.py](Recursion/factorial.py)
+	- [fibonacci.py](Recursion/fibonacci.py)
 
 ## Prerequisites
 
@@ -89,6 +94,18 @@ Example (Circular Queue):
 
 ```bash
 python "Queue/CircularQueue.py"
+```
+
+Example (Factorial - Recursion):
+
+```bash
+python "Recursion/factorial.py"
+```
+
+Example (Fibonacci - Recursion):
+
+```bash
+python "Recursion/fibonacci.py"
 ```
 
 ## Notes
