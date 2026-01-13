@@ -12,6 +12,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 5: Queue and Deque
 - Day 6: Circular Queue
 - Day 7: Recursion
+- Day 8: Trees (Introduction, types, representation)
 
 ## Structure
 
@@ -34,6 +35,9 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - [Recursion/](Recursion/readme.md)
 	- [factorial.py](Recursion/factorial.py)
 	- [fibonacci.py](Recursion/fibonacci.py)
+
+- [Tree/](Tree/readme.md)
+	- [Tree.md](Tree/Tree.md)
 
 ## Prerequisites
 
