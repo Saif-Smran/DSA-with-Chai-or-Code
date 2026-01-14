@@ -1,6 +1,28 @@
 
 # Tree
 
+## Today’s Learning (Day 10)
+
+- What is a BST (Binary Search Tree)
+	- A binary tree where for every node: left subtree values are smaller and right subtree values are larger
+	- This property lets us search/insert by comparing and moving left/right
+- Insertion in BST
+	- Compare with current node
+	- Go left if value is smaller, right if larger
+	- Insert at the first empty spot (leaf position)
+	- Note: in this implementation, duplicates are ignored (if value already exists, it returns the same node)
+- Searching in BST
+	- Same left/right decision as insertion until you find the value or hit `None`
+	- Time complexity: $O(h)$ where $h$ is tree height (average $O(\log n)$ if balanced, worst $O(n)$ if skewed)
+
+Code: [BST.py](BST.py)
+
+Run:
+
+```bash
+python "Tree/BST.py"
+```
+
 ## Today’s Learning (Day 9)
 
 - Tree traversals (depth-first): preorder, inorder, postorder
@@ -21,6 +43,7 @@
 ## Code
 
 - Traversals (recursive DFS): [Tree Traversal.py](Tree%20Traversal.py)
+- BST (insertion, search, inorder traversal): [BST.py](BST.py)
 
 This script:
 
@@ -38,5 +61,5 @@ python "Tree/Tree Traversal.py"
 
 - Add level-order traversal (BFS) using a queue
 - Add iterative DFS traversals (stack-based)
-- Extend examples toward BST operations (insert/search/delete)
+- Extend BST examples toward delete operation
 
