@@ -13,6 +13,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 6: Circular Queue
 - Day 7: Recursion
 - Day 8: Trees (Introduction, types, representation)
+- Day 9: Tree Traversals (preorder, inorder, postorder)
 
 ## Structure
 
@@ -38,6 +39,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 
 - [Tree/](Tree/readme.md)
 	- [Tree.md](Tree/Tree.md)
+	- [Tree Traversal.py](Tree/Tree%20Traversal.py)
 
 ## Prerequisites
 
@@ -110,6 +112,12 @@ Example (Fibonacci - Recursion):
 
 ```bash
 python "Recursion/fibonacci.py"
+```
+
+Example (Tree Traversals):
+
+```bash
+python "Tree/Tree Traversal.py"
 ```
 
 ## Notes
