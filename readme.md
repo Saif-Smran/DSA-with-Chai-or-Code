@@ -15,6 +15,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 8: Trees (Introduction, types, representation)
 - Day 9: Tree Traversals (preorder, inorder, postorder)
 - Day 10: Binary Search Tree (BST) — insertion and searching
+- Day 11: BST deletion
 
 ## Structure
 

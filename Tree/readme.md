@@ -1,6 +1,16 @@
 
 # Tree
 
+## Today’s Learning (Day 11)
+
+- Deletion in BST
+	- Case 1: Node is a leaf (no children) → remove it
+	- Case 2: Node has one child → replace node with its child
+	- Case 3: Node has two children → replace node’s value with inorder successor (smallest in right subtree), then delete that successor node
+	- Time complexity: $O(h)$ where $h$ is tree height (average $O(\log n)$ if balanced, worst $O(n)$ if skewed)
+
+Code (insert/search/delete + inorder): [BST.py](BST.py)
+
 ## Today’s Learning (Day 10)
 
 - What is a BST (Binary Search Tree)
@@ -61,5 +71,5 @@ python "Tree/Tree Traversal.py"
 
 - Add level-order traversal (BFS) using a queue
 - Add iterative DFS traversals (stack-based)
-- Extend BST examples toward delete operation
+- Extend BST examples with iterative insert/search
 
