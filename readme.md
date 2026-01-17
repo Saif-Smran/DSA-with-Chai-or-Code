@@ -16,6 +16,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 9: Tree Traversals (preorder, inorder, postorder)
 - Day 10: Binary Search Tree (BST) — insertion and searching
 - Day 11: BST deletion
+- Day 12: Graph and Its Matrix Representation
  
 ## Structure
 
@@ -38,6 +39,10 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - [Recursion/](Recursion/readme.md)
 	- [factorial.py](Recursion/factorial.py)
 	- [fibonacci.py](Recursion/fibonacci.py)
+
+- [Graph/](Graph/readme.md)
+	- [Graph.md](Graph/Graph.md)
+	- [GraphAdjMatrix.py](Graph/GraphAdjMatrix.py)
 
 - [Tree/](Tree/readme.md)
 	- [Tree.md](Tree/Tree.md)
@@ -127,6 +132,12 @@ Example (Binary Search Tree - Insertion & Search):
 
 ```bash
 python "Tree/BST.py"
+```
+
+Example (Graph - Adjacency Matrix):
+
+```bash
+python "Graph/GraphAdjMatrix.py"
 ```
 
 ## Notes
