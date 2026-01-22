@@ -17,6 +17,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 10: Binary Search Tree (BST) — insertion and searching
 - Day 11: BST deletion
 - Day 12: Graph and Its Matrix Representation
+- Day 13: Graph Adjacency List Representation
  
 ## Structure
 
@@ -43,6 +44,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - [Graph/](Graph/readme.md)
 	- [Graph.md](Graph/Graph.md)
 	- [GraphAdjMatrix.py](Graph/GraphAdjMatrix.py)
+	- [AdjacencyList.py](Graph/AdjacencyList.py)
 
 - [Tree/](Tree/readme.md)
 	- [Tree.md](Tree/Tree.md)
@@ -138,6 +140,12 @@ Example (Graph - Adjacency Matrix):
 
 ```bash
 python "Graph/GraphAdjMatrix.py"
+```
+
+Example (Graph - Adjacency List):
+
+```bash
+python "Graph/AdjacencyList.py"
 ```
 
 ## Notes
