@@ -18,6 +18,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 11: BST deletion
 - Day 12: Graph and Its Matrix Representation
 - Day 13: Graph Adjacency List Representation
+- Day 14: Graph Traversal — Depth First Search (DFS)
  
 ## Structure
 
@@ -45,6 +46,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 	- [Graph.md](Graph/Graph.md)
 	- [GraphAdjMatrix.py](Graph/GraphAdjMatrix.py)
 	- [AdjacencyList.py](Graph/AdjacencyList.py)
+	- [DFS.py](Graph/DFS.py)
 
 - [Tree/](Tree/readme.md)
 	- [Tree.md](Tree/Tree.md)
@@ -146,6 +148,12 @@ Example (Graph - Adjacency List):
 
 ```bash
 python "Graph/AdjacencyList.py"
+```
+
+Example (Graph - DFS Traversal):
+
+```bash
+python "Graph/DFS.py"
 ```
 
 ## Notes
