@@ -20,6 +20,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 13: Graph Adjacency List Representation
 - Day 14: Graph Traversal — Depth First Search (DFS)
 - Day 15: Graph Traversal — Breadth First Search (BFS)
+- Day 16: Bubble Sort
  
 ## Structure
 
@@ -54,6 +55,9 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 	- [Tree.md](Tree/Tree.md)
 	- [Tree Traversal.py](Tree/Tree%20Traversal.py)
 	- [BST.py](Tree/BST.py)
+
+- [Shorting/](Shorting/readme.md)
+	- [BubbleSort.py](Shorting/BubbleSort.py)
 
 ## Prerequisites
 
@@ -162,6 +166,12 @@ Example (Graph - BFS Traversal):
 
 ```bash
 python "Graph/BFS.py"
+```
+
+Example (Bubble Sort):
+
+```bash
+python "Shorting/BubbleSort.py"
 ```
 
 ## Notes
