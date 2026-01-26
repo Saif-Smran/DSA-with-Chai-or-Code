@@ -22,6 +22,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 15: Graph Traversal — Breadth First Search (BFS)
 - Day 16: Bubble Sort
 - Day 17: Selection Sort
+- Day 18: Insertion Sort
  
 ## Structure
 
@@ -60,6 +61,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - [Shorting/](Shorting/readme.md)
 	- [BubbleSort.py](Shorting/BubbleSort.py)
 	- [SelectionSort.py](Shorting/SelectionSort.py)
+	- [InsertionSort.py](Shorting/InsertionSort.py)
 
 ## Prerequisites
 
@@ -180,6 +182,12 @@ Example (Selection Sort):
 
 ```bash
 python "Shorting/SelectionSort.py"
+```
+
+Example (Insertion Sort):
+
+```bash
+python "Shorting/InsertionSort.py"
 ```
 
 ## Notes
