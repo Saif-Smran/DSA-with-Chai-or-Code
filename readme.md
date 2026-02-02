@@ -23,6 +23,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 - Day 16: Bubble Sort
 - Day 17: Selection Sort
 - Day 18: Insertion Sort
+- Day 19: Merge Sort
  
 ## Structure
 
@@ -62,6 +63,7 @@ Practice repo for Data Structures & Algorithms (DSA) code and notes.
 	- [BubbleSort.py](Shorting/BubbleSort.py)
 	- [SelectionSort.py](Shorting/SelectionSort.py)
 	- [InsertionSort.py](Shorting/InsertionSort.py)
+	- [MergeSort.py](Shorting/MergeSort.py)
 
 ## Prerequisites
 
@@ -188,6 +190,12 @@ Example (Insertion Sort):
 
 ```bash
 python "Shorting/InsertionSort.py"
+```
+
+Example (Merge Sort):
+
+```bash
+python "Shorting/MergeSort.py"
 ```
 
 ## Notes

@@ -4,6 +4,7 @@
 Learning Day 16: **Bubble Sort**
 Learning Day 17: **Selection Sort**
 Learning Day 18: **Insertion Sort**
+Learning Day 19: **Merge Sort**
 
 ## What I Have learned
 
@@ -47,6 +48,22 @@ Learning Day 18: **Insertion Sort**
 - Insert `key` into the correct position.
 - Repeat until the whole array is sorted.
 
+### Merge Sort
+
+- Merge Sort follows the **divide and conquer** approach.
+- It splits the array into halves until single-element arrays remain.
+- Then it merges those halves back together in sorted order.
+
+### Merge Sort — Algorithm Process
+
+- Divide the array into two halves.
+- Recursively sort the left half.
+- Recursively sort the right half.
+- Merge the two sorted halves:
+- Compare the first unmerged elements of both halves.
+- Move the smaller element into the result and advance that half.
+- After one half is exhausted, append the remaining elements of the other half.
+
 ## Complexity
 
 - Time: $O(n^2)$ (average/worst), $O(n^2)$ in this implementation
@@ -65,11 +82,18 @@ Learning Day 18: **Insertion Sort**
 - Space: $O(1)$ extra space (in-place)
 - Stable: Yes (when shifting elements, as in [InsertionSort.py](InsertionSort.py))
 
+### Merge Sort
+
+- Time: $O(n\log n)$ (best/average/worst)
+- Space: $O(n)$ extra space (typical merge step uses temporary arrays, as in [MergeSort.py](MergeSort.py))
+- Stable: Yes (when merging keeps equal elements in original order, as in `<=` comparison)
+
 ## Code
 
 - [BubbleSort.py](BubbleSort.py) — bubble sort function + example
 - [SelectionSort.py](SelectionSort.py) — selection sort function + example
 - [InsertionSort.py](InsertionSort.py) — insertion sort function + example
+- [MergeSort.py](MergeSort.py) — merge sort (divide + merge) + example
 
 ## Run
 
@@ -83,5 +107,9 @@ python "Shorting/SelectionSort.py"
 
 ```bash
 python "Shorting/InsertionSort.py"
+```
+
+```bash
+python "Shorting/MergeSort.py"
 ```
 
